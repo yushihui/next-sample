@@ -9,6 +9,29 @@ export type User = {
   password: string;
 };
 
+export type NewsItem = {
+  id: string;
+  title: string;
+  sub_title: string;
+  content: string;
+  status: 'pending' | 'rejected' | 'draft' | 'published' | 'archived' | 'deleted';
+  published_at: string;
+  created_at: string;
+  updated_at: string;
+  source: string;
+  tags: string[];
+  weight: number;
+  category: string;
+  address: string;
+  entities: string[];
+};
+
+export type LightNewsItem = {
+  id: string;
+  title: string;
+  sub_title: string;
+};
+
 export type Customer = {
   id: string;
   name: string;
