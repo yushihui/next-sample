@@ -14,14 +14,14 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         {/* Logo Section */}
         <div className="flex items-center">
-          <Link href="/" className="text-black font-bold text-lg">
-            <p className="text-2xl">简报</p>
+          <Link href="/news" className="text-black font-bold text-lg">
+            <p className="text-2xl">新闻简报</p>
           </Link>
         </div>
 
         {/* Desktop Navigation Links */}
         <div className="hidden md:flex space-x-6 items-center">
-          <Link href="/" className="text-black hover:underline">
+          <Link href="/news" className="text-black hover:underline">
             <p className="text-xl">头版</p>
           </Link>
           <span className="text-gray-400">|</span>

@@ -9,7 +9,7 @@ export const lusitana = Lusitana({
   });
 
 export const notoSansSC = ZCOOL_XiaoWei({
-    subsets: ["chinese-simplified"],
+    subsets: ["latin"],
     weight: ["400"],
     display: "swap", 
   });
